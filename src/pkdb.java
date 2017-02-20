@@ -36,7 +36,6 @@ public class pkdb {
      */
 
     public static void main(String[] args) throws Exception {
-
         System.out.println("Tria una opció:");
         System.out.println("1. Insereix pokemon de la API( HECHA !!) ");
         System.out.println("2. Mostra lista de pokemons y selecionar uno y dar sus tipos ( HECHA !!) ");

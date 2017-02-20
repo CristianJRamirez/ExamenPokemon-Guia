@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d8ed6e4-dd6b-41bd-8774-6cd7439c222e" name="Default" comment="" />
+    <list default="true" id="3d8ed6e4-dd6b-41bd-8774-6cd7439c222e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pkdb.java" afterPath="$PROJECT_DIR$/src/pkdb.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,53 +41,74 @@
       <file leaf-file-name="pkdb.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pkdb.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="76" column="7" selection-start-line="76" selection-start-column="7" selection-end-line="76" selection-end-column="7" />
+            <state relative-caret-position="189">
+              <caret line="37" column="61" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#getHTML#0;class#pkdb#0" expanded="false" />
                 <element signature="docComment;method#mostraPokesmon#0;class#pkdb#0" expanded="false" />
                 <element signature="method#mostraPokesmon#0;class#pkdb#0" expanded="false" />
                 <element signature="docComment;method#insereix_poke#0;class#pkdb#0" expanded="false" />
+                <element signature="method#insereix_poke#0;class#pkdb#0" expanded="false" />
+                <element signature="docComment;method#insertarPokemon#0;class#pkdb#0" expanded="false" />
                 <element signature="method#insertarPokemon#0;class#pkdb#0" expanded="false" />
+                <element signature="docComment;method#añadirDatosRelacionYTipo#0;class#pkdb#0" expanded="false" />
+                <element signature="method#añadirDatosRelacionYTipo#0;class#pkdb#0" expanded="false" />
+                <element signature="docComment;method#insertarPokemonTipo#0;class#pkdb#0" expanded="false" />
                 <element signature="method#insertarPokemonTipo#0;class#pkdb#0" expanded="false" />
+                <element signature="docComment;method#insertarTipo#0;class#pkdb#0" expanded="false" />
                 <element signature="method#insertarTipo#0;class#pkdb#0" expanded="false" />
                 <element signature="method#getPoke#0;class#pkdb#0" expanded="false" />
+                <element signature="docComment;method#mostraPokes#0;class#pkdb#0" expanded="false" />
+                <element signature="method#mostraPokes#0;class#pkdb#0" expanded="false" />
+                <element signature="docComment;method#mostraTipus#0;class#pkdb#0" expanded="false" />
                 <element signature="method#mostraTipus#0;class#pkdb#0" expanded="false" />
                 <element signature="method#mostraPokesperTipus#0;class#pkdb#0" expanded="false" />
                 <element signature="method#SJPokeApi#0;class#pkdb#0" expanded="false" />
                 <element signature="method#tratar_cadena_id_tipo#0;class#pkdb#0" expanded="false" />
+                <element signature="docComment;method#existePokemon#0;class#pkdb#0" expanded="false" />
                 <element signature="method#existePokemon#0;class#pkdb#0" expanded="false" />
+                <element signature="docComment;method#existePokemonTipo#0;class#pkdb#0" expanded="false" />
                 <element signature="method#existePokemonTipo#0;class#pkdb#0" expanded="false" />
+                <element signature="docComment;method#existeTipo#0;class#pkdb#0" expanded="false" />
                 <element signature="method#existeTipo#0;class#pkdb#0" expanded="false" />
+                <element signature="docComment;method#listaPokemons#0;class#pkdb#0" expanded="false" />
                 <element signature="method#listaPokemons#0;class#pkdb#0" expanded="false" />
-                <element signature="e#13037#13046#0" expanded="true" />
+                <element signature="docComment;method#verRelacionTipos#0;class#pkdb#0" expanded="false" />
+                <element signature="method#verRelacionTipos#0;class#pkdb#0" expanded="false" />
+                <element signature="e#14392#14401#0" expanded="true" />
+                <element signature="docComment;method#verTipos#0;class#pkdb#0" expanded="false" />
                 <element signature="method#verTipos#0;class#pkdb#0" expanded="false" />
+                <element signature="docComment;method#listaTipos#0;class#pkdb#0" expanded="false" />
                 <element signature="method#listaTipos#0;class#pkdb#0" expanded="false" />
+                <element signature="docComment;method#verRelacionPoke#0;class#pkdb#0" expanded="false" />
                 <element signature="method#verRelacionPoke#0;class#pkdb#0" expanded="false" />
-                <element signature="e#15487#15496#0" expanded="true" />
+                <element signature="e#17244#17253#0" expanded="true" />
+                <element signature="docComment;method#verPokes#0;class#pkdb#0" expanded="false" />
                 <element signature="method#verPokes#0;class#pkdb#0" expanded="false" />
-                <marker date="1487606705973" expanded="true" signature="3332:3446" ph="INSERT INTO Pokemon... " />
-                <marker date="1487606705973" expanded="true" signature="5771:5865" ph="INSERT INTO Tipo... " />
-                <marker date="1487606705973" expanded="true" signature="6369:6454" ph="INSERT INTO Tipo... " />
-                <marker date="1487606705973" expanded="true" signature="9363:9399" ph="SELECT * FRO... Pokemon" />
-                <marker date="1487606705973" expanded="true" signature="9363:9405" ph="SELECT * FRO... Pokemon" />
-                <marker date="1487606705973" expanded="true" signature="10273:10313" ph="SELECT * FRO... PokeTipo" />
-                <marker date="1487606705973" expanded="true" signature="10273:10336" ph="SELECT * FRO... PokeTipo" />
-                <marker date="1487606705973" expanded="true" signature="11214:11247" ph="SELECT * FRO... Tipo" />
-                <marker date="1487606705973" expanded="true" signature="12114:12135" ph="SELECT * FRO... Pokemon" />
-                <marker date="1487606705973" expanded="true" signature="12932:12971" ph="SELECT * FRO... PokeTipo" />
-                <marker date="1487606705973" expanded="true" signature="12932:12972" ph="SELECT * FRO... PokeTipo" />
-                <marker date="1487606705973" expanded="true" signature="13809:13841" ph="SELECT * FRO... Tipo" />
-                <marker date="1487606705973" expanded="true" signature="14584:14602" ph="SELECT * FRO... Tipo" />
-                <marker date="1487606705973" expanded="true" signature="15385:15422" ph="SELECT * FRO... PokeTipo" />
-                <marker date="1487606705973" expanded="true" signature="16265:16300" ph="SELECT * FRO... Pokemon" />
+                <marker date="1487607950686" expanded="true" signature="3486:3600" ph="INSERT INTO Pokemon... " />
+                <marker date="1487607950686" expanded="true" signature="5831:5925" ph="INSERT INTO Tipo... " />
+                <marker date="1487607950686" expanded="true" signature="6552:6637" ph="INSERT INTO Tipo... " />
+                <marker date="1487607950686" expanded="true" signature="9966:10002" ph="SELECT * FRO... Pokemon" />
+                <marker date="1487607950686" expanded="true" signature="9966:10008" ph="SELECT * FRO... Pokemon" />
+                <marker date="1487607950686" expanded="true" signature="11119:11159" ph="SELECT * FRO... PokeTipo" />
+                <marker date="1487607950686" expanded="true" signature="11119:11182" ph="SELECT * FRO... PokeTipo" />
+                <marker date="1487607950686" expanded="true" signature="12291:12324" ph="SELECT * FRO... Tipo" />
+                <marker date="1487607950686" expanded="true" signature="13272:13293" ph="SELECT * FRO... Pokemon" />
+                <marker date="1487607950686" expanded="true" signature="14287:14326" ph="SELECT * FRO... PokeTipo" />
+                <marker date="1487607950686" expanded="true" signature="14287:14327" ph="SELECT * FRO... PokeTipo" />
+                <marker date="1487607950686" expanded="true" signature="15298:15330" ph="SELECT * FRO... Tipo" />
+                <marker date="1487607950686" expanded="true" signature="16149:16167" ph="SELECT * FRO... Tipo" />
+                <marker date="1487607950686" expanded="true" signature="17142:17179" ph="SELECT * FRO... PokeTipo" />
+                <marker date="1487607950686" expanded="true" signature="18143:18178" ph="SELECT * FRO... Pokemon" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -112,7 +137,7 @@
     <option name="width" value="1922" />
     <option name="height" value="1054" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -694,16 +719,16 @@
       <option name="presentableId" value="Default" />
       <updated>1487436165058</updated>
       <workItem from="1487436169174" duration="1696000" />
-      <workItem from="1487600652284" duration="6047000" />
+      <workItem from="1487600652284" duration="7290000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7743000" />
+    <option name="totallyTimeSpent" value="8986000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="27" width="1922" height="1054" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -712,12 +737,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39736554" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39736554" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16042781" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16042781" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16791444" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -752,7 +777,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -775,43 +800,61 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#getHTML#0;class#pkdb#0" expanded="false" />
             <element signature="docComment;method#mostraPokesmon#0;class#pkdb#0" expanded="false" />
             <element signature="method#mostraPokesmon#0;class#pkdb#0" expanded="false" />
             <element signature="docComment;method#insereix_poke#0;class#pkdb#0" expanded="false" />
+            <element signature="method#insereix_poke#0;class#pkdb#0" expanded="false" />
+            <element signature="docComment;method#insertarPokemon#0;class#pkdb#0" expanded="false" />
             <element signature="method#insertarPokemon#0;class#pkdb#0" expanded="false" />
+            <element signature="docComment;method#añadirDatosRelacionYTipo#0;class#pkdb#0" expanded="false" />
+            <element signature="method#añadirDatosRelacionYTipo#0;class#pkdb#0" expanded="false" />
+            <element signature="docComment;method#insertarPokemonTipo#0;class#pkdb#0" expanded="false" />
             <element signature="method#insertarPokemonTipo#0;class#pkdb#0" expanded="false" />
+            <element signature="docComment;method#insertarTipo#0;class#pkdb#0" expanded="false" />
             <element signature="method#insertarTipo#0;class#pkdb#0" expanded="false" />
             <element signature="method#getPoke#0;class#pkdb#0" expanded="false" />
+            <element signature="docComment;method#mostraPokes#0;class#pkdb#0" expanded="false" />
+            <element signature="method#mostraPokes#0;class#pkdb#0" expanded="false" />
+            <element signature="docComment;method#mostraTipus#0;class#pkdb#0" expanded="false" />
             <element signature="method#mostraTipus#0;class#pkdb#0" expanded="false" />
             <element signature="method#mostraPokesperTipus#0;class#pkdb#0" expanded="false" />
             <element signature="method#SJPokeApi#0;class#pkdb#0" expanded="false" />
             <element signature="method#tratar_cadena_id_tipo#0;class#pkdb#0" expanded="false" />
+            <element signature="docComment;method#existePokemon#0;class#pkdb#0" expanded="false" />
             <element signature="method#existePokemon#0;class#pkdb#0" expanded="false" />
+            <element signature="docComment;method#existePokemonTipo#0;class#pkdb#0" expanded="false" />
             <element signature="method#existePokemonTipo#0;class#pkdb#0" expanded="false" />
+            <element signature="docComment;method#existeTipo#0;class#pkdb#0" expanded="false" />
             <element signature="method#existeTipo#0;class#pkdb#0" expanded="false" />
+            <element signature="docComment;method#listaPokemons#0;class#pkdb#0" expanded="false" />
             <element signature="method#listaPokemons#0;class#pkdb#0" expanded="false" />
-            <element signature="e#13037#13046#0" expanded="true" />
+            <element signature="docComment;method#verRelacionTipos#0;class#pkdb#0" expanded="false" />
+            <element signature="method#verRelacionTipos#0;class#pkdb#0" expanded="false" />
+            <element signature="e#14392#14401#0" expanded="true" />
+            <element signature="docComment;method#verTipos#0;class#pkdb#0" expanded="false" />
             <element signature="method#verTipos#0;class#pkdb#0" expanded="false" />
+            <element signature="docComment;method#listaTipos#0;class#pkdb#0" expanded="false" />
             <element signature="method#listaTipos#0;class#pkdb#0" expanded="false" />
+            <element signature="docComment;method#verRelacionPoke#0;class#pkdb#0" expanded="false" />
             <element signature="method#verRelacionPoke#0;class#pkdb#0" expanded="false" />
-            <element signature="e#15487#15496#0" expanded="true" />
+            <element signature="e#17244#17253#0" expanded="true" />
+            <element signature="docComment;method#verPokes#0;class#pkdb#0" expanded="false" />
             <element signature="method#verPokes#0;class#pkdb#0" expanded="false" />
-            <marker date="1487606705973" expanded="true" signature="3332:3446" ph="INSERT INTO Pokemon... " />
-            <marker date="1487606705973" expanded="true" signature="5771:5865" ph="INSERT INTO Tipo... " />
-            <marker date="1487606705973" expanded="true" signature="6369:6454" ph="INSERT INTO Tipo... " />
-            <marker date="1487606705973" expanded="true" signature="9363:9399" ph="SELECT * FRO... Pokemon" />
-            <marker date="1487606705973" expanded="true" signature="9363:9405" ph="SELECT * FRO... Pokemon" />
-            <marker date="1487606705973" expanded="true" signature="10273:10313" ph="SELECT * FRO... PokeTipo" />
-            <marker date="1487606705973" expanded="true" signature="10273:10336" ph="SELECT * FRO... PokeTipo" />
-            <marker date="1487606705973" expanded="true" signature="11214:11247" ph="SELECT * FRO... Tipo" />
-            <marker date="1487606705973" expanded="true" signature="12114:12135" ph="SELECT * FRO... Pokemon" />
-            <marker date="1487606705973" expanded="true" signature="12932:12971" ph="SELECT * FRO... PokeTipo" />
-            <marker date="1487606705973" expanded="true" signature="12932:12972" ph="SELECT * FRO... PokeTipo" />
-            <marker date="1487606705973" expanded="true" signature="13809:13841" ph="SELECT * FRO... Tipo" />
-            <marker date="1487606705973" expanded="true" signature="14584:14602" ph="SELECT * FRO... Tipo" />
-            <marker date="1487606705973" expanded="true" signature="15385:15422" ph="SELECT * FRO... PokeTipo" />
-            <marker date="1487606705973" expanded="true" signature="16265:16300" ph="SELECT * FRO... Pokemon" />
+            <marker date="1487607950686" expanded="true" signature="3486:3600" ph="INSERT INTO Pokemon... " />
+            <marker date="1487607950686" expanded="true" signature="5831:5925" ph="INSERT INTO Tipo... " />
+            <marker date="1487607950686" expanded="true" signature="6552:6637" ph="INSERT INTO Tipo... " />
+            <marker date="1487607950686" expanded="true" signature="9966:10002" ph="SELECT * FRO... Pokemon" />
+            <marker date="1487607950686" expanded="true" signature="9966:10008" ph="SELECT * FRO... Pokemon" />
+            <marker date="1487607950686" expanded="true" signature="11119:11159" ph="SELECT * FRO... PokeTipo" />
+            <marker date="1487607950686" expanded="true" signature="11119:11182" ph="SELECT * FRO... PokeTipo" />
+            <marker date="1487607950686" expanded="true" signature="12291:12324" ph="SELECT * FRO... Tipo" />
+            <marker date="1487607950686" expanded="true" signature="13272:13293" ph="SELECT * FRO... Pokemon" />
+            <marker date="1487607950686" expanded="true" signature="14287:14326" ph="SELECT * FRO... PokeTipo" />
+            <marker date="1487607950686" expanded="true" signature="14287:14327" ph="SELECT * FRO... PokeTipo" />
+            <marker date="1487607950686" expanded="true" signature="15298:15330" ph="SELECT * FRO... Tipo" />
+            <marker date="1487607950686" expanded="true" signature="16149:16167" ph="SELECT * FRO... Tipo" />
+            <marker date="1487607950686" expanded="true" signature="17142:17179" ph="SELECT * FRO... PokeTipo" />
+            <marker date="1487607950686" expanded="true" signature="18143:18178" ph="SELECT * FRO... Pokemon" />
           </folding>
         </state>
       </provider>
@@ -989,47 +1032,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pkdb.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="76" column="7" selection-start-line="76" selection-start-column="7" selection-end-line="76" selection-end-column="7" />
+        <state relative-caret-position="189">
+          <caret line="37" column="61" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#getHTML#0;class#pkdb#0" expanded="false" />
             <element signature="docComment;method#mostraPokesmon#0;class#pkdb#0" expanded="false" />
             <element signature="method#mostraPokesmon#0;class#pkdb#0" expanded="false" />
             <element signature="docComment;method#insereix_poke#0;class#pkdb#0" expanded="false" />
+            <element signature="method#insereix_poke#0;class#pkdb#0" expanded="false" />
+            <element signature="docComment;method#insertarPokemon#0;class#pkdb#0" expanded="false" />
             <element signature="method#insertarPokemon#0;class#pkdb#0" expanded="false" />
+            <element signature="docComment;method#añadirDatosRelacionYTipo#0;class#pkdb#0" expanded="false" />
+            <element signature="method#añadirDatosRelacionYTipo#0;class#pkdb#0" expanded="false" />
+            <element signature="docComment;method#insertarPokemonTipo#0;class#pkdb#0" expanded="false" />
             <element signature="method#insertarPokemonTipo#0;class#pkdb#0" expanded="false" />
+            <element signature="docComment;method#insertarTipo#0;class#pkdb#0" expanded="false" />
             <element signature="method#insertarTipo#0;class#pkdb#0" expanded="false" />
             <element signature="method#getPoke#0;class#pkdb#0" expanded="false" />
+            <element signature="docComment;method#mostraPokes#0;class#pkdb#0" expanded="false" />
+            <element signature="method#mostraPokes#0;class#pkdb#0" expanded="false" />
+            <element signature="docComment;method#mostraTipus#0;class#pkdb#0" expanded="false" />
             <element signature="method#mostraTipus#0;class#pkdb#0" expanded="false" />
             <element signature="method#mostraPokesperTipus#0;class#pkdb#0" expanded="false" />
             <element signature="method#SJPokeApi#0;class#pkdb#0" expanded="false" />
             <element signature="method#tratar_cadena_id_tipo#0;class#pkdb#0" expanded="false" />
+            <element signature="docComment;method#existePokemon#0;class#pkdb#0" expanded="false" />
             <element signature="method#existePokemon#0;class#pkdb#0" expanded="false" />
+            <element signature="docComment;method#existePokemonTipo#0;class#pkdb#0" expanded="false" />
             <element signature="method#existePokemonTipo#0;class#pkdb#0" expanded="false" />
+            <element signature="docComment;method#existeTipo#0;class#pkdb#0" expanded="false" />
             <element signature="method#existeTipo#0;class#pkdb#0" expanded="false" />
+            <element signature="docComment;method#listaPokemons#0;class#pkdb#0" expanded="false" />
             <element signature="method#listaPokemons#0;class#pkdb#0" expanded="false" />
-            <element signature="e#13037#13046#0" expanded="true" />
+            <element signature="docComment;method#verRelacionTipos#0;class#pkdb#0" expanded="false" />
+            <element signature="method#verRelacionTipos#0;class#pkdb#0" expanded="false" />
+            <element signature="e#14392#14401#0" expanded="true" />
+            <element signature="docComment;method#verTipos#0;class#pkdb#0" expanded="false" />
             <element signature="method#verTipos#0;class#pkdb#0" expanded="false" />
+            <element signature="docComment;method#listaTipos#0;class#pkdb#0" expanded="false" />
             <element signature="method#listaTipos#0;class#pkdb#0" expanded="false" />
+            <element signature="docComment;method#verRelacionPoke#0;class#pkdb#0" expanded="false" />
             <element signature="method#verRelacionPoke#0;class#pkdb#0" expanded="false" />
-            <element signature="e#15487#15496#0" expanded="true" />
+            <element signature="e#17244#17253#0" expanded="true" />
+            <element signature="docComment;method#verPokes#0;class#pkdb#0" expanded="false" />
             <element signature="method#verPokes#0;class#pkdb#0" expanded="false" />
-            <marker date="1487606705973" expanded="true" signature="3332:3446" ph="INSERT INTO Pokemon... " />
-            <marker date="1487606705973" expanded="true" signature="5771:5865" ph="INSERT INTO Tipo... " />
-            <marker date="1487606705973" expanded="true" signature="6369:6454" ph="INSERT INTO Tipo... " />
-            <marker date="1487606705973" expanded="true" signature="9363:9399" ph="SELECT * FRO... Pokemon" />
-            <marker date="1487606705973" expanded="true" signature="9363:9405" ph="SELECT * FRO... Pokemon" />
-            <marker date="1487606705973" expanded="true" signature="10273:10313" ph="SELECT * FRO... PokeTipo" />
-            <marker date="1487606705973" expanded="true" signature="10273:10336" ph="SELECT * FRO... PokeTipo" />
-            <marker date="1487606705973" expanded="true" signature="11214:11247" ph="SELECT * FRO... Tipo" />
-            <marker date="1487606705973" expanded="true" signature="12114:12135" ph="SELECT * FRO... Pokemon" />
-            <marker date="1487606705973" expanded="true" signature="12932:12971" ph="SELECT * FRO... PokeTipo" />
-            <marker date="1487606705973" expanded="true" signature="12932:12972" ph="SELECT * FRO... PokeTipo" />
-            <marker date="1487606705973" expanded="true" signature="13809:13841" ph="SELECT * FRO... Tipo" />
-            <marker date="1487606705973" expanded="true" signature="14584:14602" ph="SELECT * FRO... Tipo" />
-            <marker date="1487606705973" expanded="true" signature="15385:15422" ph="SELECT * FRO... PokeTipo" />
-            <marker date="1487606705973" expanded="true" signature="16265:16300" ph="SELECT * FRO... Pokemon" />
+            <marker date="1487607950686" expanded="true" signature="3486:3600" ph="INSERT INTO Pokemon... " />
+            <marker date="1487607950686" expanded="true" signature="5831:5925" ph="INSERT INTO Tipo... " />
+            <marker date="1487607950686" expanded="true" signature="6552:6637" ph="INSERT INTO Tipo... " />
+            <marker date="1487607950686" expanded="true" signature="9966:10002" ph="SELECT * FRO... Pokemon" />
+            <marker date="1487607950686" expanded="true" signature="9966:10008" ph="SELECT * FRO... Pokemon" />
+            <marker date="1487607950686" expanded="true" signature="11119:11159" ph="SELECT * FRO... PokeTipo" />
+            <marker date="1487607950686" expanded="true" signature="11119:11182" ph="SELECT * FRO... PokeTipo" />
+            <marker date="1487607950686" expanded="true" signature="12291:12324" ph="SELECT * FRO... Tipo" />
+            <marker date="1487607950686" expanded="true" signature="13272:13293" ph="SELECT * FRO... Pokemon" />
+            <marker date="1487607950686" expanded="true" signature="14287:14326" ph="SELECT * FRO... PokeTipo" />
+            <marker date="1487607950686" expanded="true" signature="14287:14327" ph="SELECT * FRO... PokeTipo" />
+            <marker date="1487607950686" expanded="true" signature="15298:15330" ph="SELECT * FRO... Tipo" />
+            <marker date="1487607950686" expanded="true" signature="16149:16167" ph="SELECT * FRO... Tipo" />
+            <marker date="1487607950686" expanded="true" signature="17142:17179" ph="SELECT * FRO... PokeTipo" />
+            <marker date="1487607950686" expanded="true" signature="18143:18178" ph="SELECT * FRO... Pokemon" />
           </folding>
         </state>
       </provider>

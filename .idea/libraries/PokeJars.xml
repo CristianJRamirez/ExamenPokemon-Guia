@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="PokeJars">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../PokeJars" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../PokeJars" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../PokeJars" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../PokeJars" recursive="false" type="SOURCES" />
+  </library>
+</component>
